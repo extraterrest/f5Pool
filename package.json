@@ -1,0 +1,13 @@
+{
+    "name": "f5Pool",
+    "version": "0.1.0",
+    "description": "A tool to manage F5 BIGIP pool objects remotely with rest api.",
+    "author": "Gavin Liu <g.liu@f5.com>",
+    "dependencies": {
+        "optimist": "0.6.1",
+        "request": "2.51.0"
+    },
+    "engines": {
+        "node": "0.10.29"
+    }
+}
