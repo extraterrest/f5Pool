@@ -33,6 +33,7 @@ arguments: \n\
   --offline      take the specific pool member to forceoffline status \n\
   --kill         take the specific pool member to forceoffline status and clear the current connection related to the pool member \n\
 \n\
+You can also store the configuration (user, pass, etc.) into config.js file.\n\n\
 examples: \n\
 node changePoolMember --user=admin --pass=admin --bigip=192.168.1.245 --get\n\
 //To list all the pool and pool members.\n\n\
