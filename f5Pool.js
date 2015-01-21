@@ -107,7 +107,7 @@ function getPoolState(user, pass, bigip) {
     });
   });
   console.log("\n---------- Pool Information for " + bigip + " ----------");
-  console.log("\n----Pool Member -- IP address -- state -- session state ------");
+  console.log("\n----Pool Member -- IP address -- monitor state -- user state ------");
     target.forEach(function(mypool){
     console.log("|--"+mypool.name);
     mypool.poolmembers.forEach(function(mymembers){
